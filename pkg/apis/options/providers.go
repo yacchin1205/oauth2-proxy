@@ -136,6 +136,9 @@ const (
 
 	// OIDCProvider is the provider type for OIDC
 	OIDCProvider ProviderType = "oidc"
+
+	// JupyterHubProvider is the provider type for JupyterHub
+	JupyterHubProvider ProviderType = "jupyterhub"
 )
 
 type KeycloakOptions struct {
